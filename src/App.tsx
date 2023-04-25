@@ -6,7 +6,7 @@ import Ball from './components/ball/Ball';
 function App() {
   return (
     <div className="App">
-      <div className='telaLado1'>
+      <div className='telaLadoEsquerdo'>
         <div className='relogio'>
           <Clock />
         </div>
@@ -14,7 +14,7 @@ function App() {
           <Form />
         </div>
       </div>
-      <div className='telaLado2'>
+      <div className='telaLadoDireito'>
         <Ball />
       </div>
     </div>
