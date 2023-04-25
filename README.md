@@ -7,7 +7,7 @@ comando usado para clonar o repositório em sua máquina.
 ### `cd geopixel-ts`
 para entrar na pasta do projeto.
 
-### `npm install sweetalert2` ou `npm i sweetalert2`
+### `npm install` ou `npm i`
 Instalar dependências
 
 ### `npm start`
