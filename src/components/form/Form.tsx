@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 
 function Form() {
     // Estados para salvar o item adicionado no formulário, o valor que usuário digitar no input, o item que o mesmo selecionar no formulário e desabilitar/habilitar selected
-    const [items, setItems] = useState<string[]>([]);
+    const [items, setItems] = useState<string[]>(['Geopixel']);
     const [inputValue, setInputValue] = useState<string>('');
     const [selectedItem, setSelectedItem] = useState<string>('Selecione uma opção');
     const [itemIsDisable, setItemIsDisable] = useState<boolean>(false);
@@ -17,6 +17,7 @@ function Form() {
     // Captura o item selecionado no formulário e salva no seu estado
     const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         setSelectedItem(event.target.value);
+        setItemIsDisable(true);
     };
 
     // Limpa o input e impede que a página atualize sempre que o formulário for alterado

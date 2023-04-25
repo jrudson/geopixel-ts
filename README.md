@@ -4,6 +4,9 @@ No diretório do projeto, você pode executar:
 ### `git clone https://github.com/jrudson/geopixel.git`
 comando usado para clonar o repositório em sua máquina.
 
+### `cd geopixel-ts`
+para entrar na pasta do projeto.
+
 ### `npm install sweetalert2` ou `npm i sweetalert2`
 Instalar dependências
 
